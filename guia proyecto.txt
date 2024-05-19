@@ -1,0 +1,22 @@
+Que tengo que hacer:
+
+Proyecto React
+En este proyecto vamos a realizar una aplicación web que nos permita hacer una planificación de un menú
+semanal. En la página web podemos introducir los datos de 3 comidas por día para una semana entera.
+Objetivos
+). Al cargar la página se muestra un formulario de login, o la opción de registrarte si es tu primera vez.
+*. NO se puede ver los menú si no estás logado.
++. Una vez logado podrás ver lo siguiente:
+Menú semanal con un listado de comidas por día
+). Cada menú tiene asociado 7 días
+*. Un día puede tener asociado hasta 3 comidas
++. Cada comida tiene un nombre, descripción y tipo
+Agregar un nuevo menú
+Agregar una comida a un día especifico
+,. Guardar los datos del menú y sus comidas usando la web https://mockapi.io/
+.. Filtrar las comidas por día.
+/. Eliminar una comida.
+1. Es importante deben hacer uso de useContext, useEffect, useState, asi como rutas privada
+2. Podrian usar la API de node que tengan ya programada o mockapi.io
+3. BONUS Modificar un menú, comida.
+4. BONUS Eliminar un menú.
