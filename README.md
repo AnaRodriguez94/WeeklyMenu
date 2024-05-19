@@ -23,10 +23,10 @@ LoginPage.jsx
 RegisterPage.jsx
 DashboardPage.jsx
 
-services/
+assets/
 apiService.js
-App.js
-index.js
+App.jsx
+index.jsx
 routes.js
 
 ## Descripción de cada componente y archivo
