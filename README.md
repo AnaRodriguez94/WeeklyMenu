@@ -8,26 +8,25 @@ src/
 components/
 LoginForm.jsx
 RegisterForm.jsx
+menu/
 MenuList.jsx
-MenuItem.jsx
-AddMenuForm.jsx
-AddMealForm.jsx
-MealFilter.jsx
+DailyMenu.jsx
 
-context/
+contexts/
 AuthContext.js
 MenuContext.js
 
 pages/
-LoginPage.jsx
-RegisterPage.jsx
-DashboardPage.jsx
+Home.js
+MenuPage.js
+
+routes/
+PrivateRoute.js
 
 assets/
-apiService.js
-App.jsx
-index.jsx
+App.js
 routes.js
+index.js
 
 ## Descripción de cada componente y archivo
 
@@ -35,27 +34,17 @@ components/LoginForm.jsx: Formulario de inicio de sesión.
 
 components/RegisterForm.jsx: Formulario de registro.
 
-components/MenuList.jsx: Lista de menús semanales.
+menu/MenuList.jsx: Lista de menús semanales.
 
-components/MenuItem.jsx: Componente para mostrar un día específico con sus comidas.
-
-components/AddMenuForm.jsx: Formulario para agregar un nuevo menú semanal.
-
-components/AddMealForm.jsx: Formulario para agregar una nueva comida a un día específico.
-
-components/MealFilter.jsx: Componente para filtrar las comidas por día.
+menu/DailyMenu.jsx: Componente para mostrar un día específico con sus comidas.
 
 context/AuthContext.js: Contexto para manejar la autenticación del usuario.
 
 context/MenuContext.js: Contexto para manejar los datos del menú y sus comidas.
 
-pages/LoginPage.jsx: Página de inicio de sesión.
+pages/Home.jsx: Página de inicio de sesión.
 
-pages/RegisterPage.jsx: Página de registro.
-
-pages/DashboardPage.jsx: Página principal que muestra el menú semanal y permite agregar, modificar y eliminar menús y comidas.
-
-services/apiService.js: Servicio para interactuar con la API (mockapi.io o una API de Node).
+pages/MenuPage.jsx: Página de menu
 
 App.js: Componente principal de la aplicación que configura las rutas.
 
